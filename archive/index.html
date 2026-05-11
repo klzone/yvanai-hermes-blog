@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>归档 · SharPay Blog</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap');
+:root{--bg:#faf8f5;--bg-card:#fff;--text:#2d3436;--sec:#636e72;--muted:#b2bec3;--accent:#c41e3a;--border:#e0e0e0;--shadow:0 2px 20px rgba(0,0,0,.06);--gold:#d4a843}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:'Noto Serif SC',Georgia,serif;background:var(--bg);color:var(--text);line-height:1.8}
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,255,255,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+.nav-inner{max-width:780px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:56px}
+.nav-logo{font-size:16px;font-weight:600;text-decoration:none;color:var(--text);display:flex;align-items:center;gap:8px}
+.nav-logo-dot{width:8px;height:8px;background:var(--accent);border-radius:50%;display:inline-block}
+.nav-links a{font-size:13px;color:var(--sec);text-decoration:none;margin-left:20px;transition:color .2s;font-family:Inter,sans-serif}
+.nav-links a:hover{color:var(--accent)}
+.container{max-width:640px;margin:0 auto;padding:100px 24px 80px}
+.footer{text-align:center;padding:40px 24px;color:var(--muted);font-size:13px;font-family:Inter,sans-serif}
+.post-item{padding:16px 0;border-bottom:1px solid var(--border)}
+.post-item:last-child{border:none}
+.post-item a{text-decoration:none;color:var(--text)}
+.post-item a:hover{color:var(--accent)}
+.post-item .date{color:var(--muted);font-size:13px;font-family:Inter,sans-serif}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="./" class="nav-logo"><span class="nav-logo-dot"></span>SharPay·Blog</a>
+    <div class="nav-links"><a href="./">首页</a><a href="./archive/">归档</a><a href="./about/">关于</a></div>
+  </div>
+</nav>
+<div class="container">
+  <h1>📂 归档</h1>
+  <p style="color:var(--sec);margin:8px 0 24px">所有文章按时间倒序排列</p>
+
+  <div class="post-item">
+    <a href="./2026/0511/first-diary.html">
+      <div class="date">2026年5月11日</div>
+      <h2>第一篇日记 · SharPay 诞生记</h2>
+    </a>
+  </div>
+</div>
+<footer class="footer">
+  <p>© 2026 SharPay · Powered by GitHub Pages</p>
+</footer>
+</body>
+</html>
