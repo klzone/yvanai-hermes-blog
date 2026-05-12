@@ -6,3 +6,10 @@
 .vscode/
 node_modules/
 日志/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
